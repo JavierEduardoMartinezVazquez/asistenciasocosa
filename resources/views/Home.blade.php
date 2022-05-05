@@ -4,36 +4,53 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 @section('content')
 
-<nav class="navbar navbar-dark bg-danger">
-    <div class="container-fluid">
+<nav class="navbar navbar-dark bg-danger center">
       <a class="navbar-brand" href="#">
-        <h1></h1>
-      </a>
+          <div class="container">
+              
+              SISTEMA DE ASISTENCIAS
+
+            </a>
+      </div>
     </div>
 </nav>
-  <center>
-    <p><h1>Sistema de Asistencias</h1></p>
-</center>
+<p></p>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <p></p>
+        Inicio de Sesion
+      </div>
+    </div>
+</div>
+<p></p>
+  
+    
 </nav>
 <section class="vh-100">
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-md-9 col-lg-6 col-xl-5">
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-            class="img-fluid" alt="Sample image">
+          <img src="https://empresas.divulgaciondinamica.es/wp-content/uploads/2020/06/create-idea-success_41910-189.jpg"
+            class="img-fluid" alt="image">
         </div>
         <div class="col-md-10 col-lg-6 col-xl-4 offset-xl-1">
           <form>
            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
             </div>
+            
   
             <div class="divider d-flex align-items-center my-4">
             </div>
+            
+            <div class="form-outline mb-3">
+                Login
+              </div>
   
             <!-- Email input -->
             <div class="form-outline mb-4">
               <input type="email" id="form3Example3" class="form-control form-control-lg"
-                placeholder=""/>
+                placeholder="ej:nombre.apellido@socasa.com.mx"/>
               <label class="form-label" for="form3Example3">Correo Electronico</label>
             </div>
   
@@ -51,5 +68,15 @@
                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Iniciar sesion</button>     
             </div>
           </form>
+        </div>
+      </div>
+      <p></p>
+      <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgb(202, 199, 199);">
+          © 2022 Copyright
+          <class="text-dark" href="https://">
+        </div>
+      </footer>
         
 @endsection
