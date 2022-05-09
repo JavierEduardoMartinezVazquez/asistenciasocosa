@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 
-@section('tittle','Home')
+@section('tittle','Login')
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 @section('content')
 
@@ -12,7 +12,9 @@
       </div>
     </div>
 </nav>
-<p></p>
+<p>
+
+</p>
 
 <div class="container">
     <div class="row justify-content-center">
@@ -50,7 +52,7 @@
               <input type="email" id="form3Example3" class="form-control form-control-lg"
                 placeholder="ej:nombre.apellido@socasa.com.mx"/>
               <label class="form-label" for="form3Example3">Correo Electronico</label>
-            </div>
+            </div> 
   
             <!-- Password input -->
             <div class="form-outline mb-3">
