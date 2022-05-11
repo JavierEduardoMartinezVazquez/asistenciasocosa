@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 
-@section('tittle','Login')
+@section('tittle','Inicio')
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 @section('content')
 

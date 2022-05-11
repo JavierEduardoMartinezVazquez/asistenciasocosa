@@ -7,15 +7,13 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PruebaController;
 use App\Http\Controllers\RegistroController;
 use App\Http\Controllers\SocasaController;
+use App\Http\Controllers\SucursalController;
 
 
 //RUTA PRINCIPAL
 Route::get('/', SocasaController::class);
-
-Route::controller(RegistroController::class)->group(function(){
-    Route::get('/sucursales');
-    Route::get('/sucursales/registro');
-});
+Route::get('/sucursales', SucursalController::class);
+Route::get('/registro', RegistroController::class);
 
 Route::get('/login', LoginController::class);
 Route::get('/home', HomeController::class);

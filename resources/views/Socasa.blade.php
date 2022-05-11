@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 
-@section('tittle','Login')
+@section('tittle','SISA-SOCASA')
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 @section('content')
 
@@ -19,7 +19,7 @@
 <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav me-auto my-2 my-lg- navbar-nav-scroll"></ul>
         <form class="col-2">
-          <a href="http://localhost/asistenciasocasa/public/home" class="btn btn-outline-secondary">REGISTRATE</a>
+          <a href="http://localhost/asistenciasocasa/public/sucursales" class="btn btn-outline-secondary">REGISTRATE</a>
         </form>
       </div>
     </div>

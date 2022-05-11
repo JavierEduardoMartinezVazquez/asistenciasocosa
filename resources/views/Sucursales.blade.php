@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 
-@section('tittle','Login')
+@section('tittle','SISA-Sucursales')
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 @section('content')
 
@@ -51,6 +51,7 @@
     <br>
     </center>
 <br>
+</strong>
 
 <center>
     
