@@ -5,10 +5,12 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\EmpleadoController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PruebaController;
+use App\Http\Controllers\SocasaController;
 
 
 //RUTA PRINCIPAL
-Route::get('/', LoginController::class);
+Route::get('/', SocasaController::class);
+Route::get('/login', LoginController::class);
 Route::get('/home', HomeController::class);
 Route::get('/prueba', PruebaController::class);
 
