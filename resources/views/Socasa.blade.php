@@ -42,7 +42,7 @@
                         <form class="col-row-12">
                             <br>
                             <br>
-                            <a href="http://localhost/asistenciasocasa/public/home" class="btn btn-outline-secondary">LOGIN</a>
+                            <a href="http://localhost/asistenciasocasa/public/login" class="btn btn-outline-secondary">LOGIN</a>
                         </div>
                       </div>
                 </div>

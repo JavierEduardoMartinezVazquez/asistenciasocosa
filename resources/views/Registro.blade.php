@@ -1,6 +1,6 @@
 @extends('layouts.plantilla')
 
-@section('tittle','SISA-Prueba')
+@section('tittle','SISA-Registro')
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 @section('content')
 
