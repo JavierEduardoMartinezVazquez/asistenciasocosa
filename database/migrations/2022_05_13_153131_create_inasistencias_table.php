@@ -13,14 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('empleado', function (Blueprint $table) {
+        Schema::create('inasistencias', function (Blueprint $table) {
             $table->id();
-            $table->string('nombres');
-            $table->string('apellido_pat');
-            $table->string('apellido_mat');
-            $table->date('fecha');
-            $table->time('hora_entrada');
-            $table->time('hora_salida');
             $table->timestamps();
         });
     }
@@ -32,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('empleados');
+        Schema::dropIfExists('inasistencias');
     }
 };
