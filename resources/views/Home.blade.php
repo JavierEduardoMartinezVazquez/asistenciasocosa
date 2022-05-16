@@ -4,6 +4,11 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 @section('content')
 
+<div class="col-md-12 border border-danger">
+</div>
+<div class="col-md-12 border border-danger">
+</div>
+
 
 <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary">
 <div class="container">
@@ -52,10 +57,7 @@
   </div>
 </div>
 </nav>
-<div class="col-md-12 border border-danger">
-</div>
-<div class="col-md-12 border border-danger">
-</div>
+
 
       <br>
       <br>

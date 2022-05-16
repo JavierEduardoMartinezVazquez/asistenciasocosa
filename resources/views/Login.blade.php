@@ -82,7 +82,7 @@ L O G I N  </p>
   </div>
   </div>
   <br>
-  <button type="submit" class="btn btn-outline-danger">Entrar</button>
+  <a href="http://localhost/asistenciasocasa/public/home" class="btn btn-outline-danger">Entrar</a>
 </form>
 </center>
 

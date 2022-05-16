@@ -11,7 +11,7 @@ use App\Http\Controllers\SucursalController;
 
 
 //RUTA PRINCIPAL
-Route::get('/', SocasaController::class);
+Route::get('/', SocasaController::class);   
 Route::get('/sucursales', SucursalController::class);
 Route::get('/registro', RegistroController::class);
 
