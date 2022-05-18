@@ -13,13 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('asistencias', function (Blueprint $table) {
+        Schema::create('inasistencias', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre');
-            $table->string('area');
-            $table->string('puesto');
-            $table->date('fecha');
-            $table->time('hora_entrada');
+            $table->string('nombrein');
+            $table->string('sucursalin');
+            $table->string('puestoin');
             $table->timestamps();
         });
     }
@@ -31,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('asistencias');
+        Schema::dropIfExists('inasistencias');
     }
 };

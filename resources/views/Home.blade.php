@@ -34,9 +34,9 @@
               Empleado
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Codigo QR</a></li>
+              <li><a class="dropdown-item" href="#">Asistencias</a></li>
+              <li><a class="dropdown-item" href="#">Editar</a></li>
             </ul>
           </li>
         </ul>
@@ -65,7 +65,7 @@
 <header>
 
     <div class="p-5 text-center bg-image" style="height: 437px;"></div>
-      </div>
+
 
 </header>
 

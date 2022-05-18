@@ -16,11 +16,8 @@ return new class extends Migration
         Schema::create('empleados', function (Blueprint $table) {
             $table->id();
             $table->string('nombres');
-            $table->string('apellido_pat');
-            $table->string('apellido_mat');
-            $table->date('fecha');
-            $table->time('hora_entrada');
-            $table->time('hora_salida');
+            $table->string('apellidopat');
+            $table->string('apellidomat');
             $table->timestamps();
         });
     }
