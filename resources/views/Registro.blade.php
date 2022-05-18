@@ -113,7 +113,7 @@ R E G I S T R A T E  </p>
 <!-- Copyright -->
 <div class="text-center p-3" style="background-color: rgb(233, 18, 18);">
     <div class="text-white">
-  © 2022 Copyright
+  © 2022 Copyright 
 </div>
 <!-- Copyright -->
 </footer>
