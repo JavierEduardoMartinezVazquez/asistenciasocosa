@@ -97,7 +97,7 @@ L O G I N  </p>
 <!-- Copyright -->
 <div class="text-center p-3" style="background-color: rgb(233, 18, 18);">
     <div class="text-white">
-  © 2022 Copyright JET
+  © 2022 Copyright 
 </div>
 <!-- Copyright -->
 </footer>

@@ -53,7 +53,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(255, 0, 0, 0.884);">
         <div class="text-white">
-      © 2022 Copyright JET
+      © 2022 Copyright 
     </div>
     <!-- Copyright -->
   </footer>
